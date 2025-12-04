@@ -13,8 +13,8 @@ You must have the following installed on your machine:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [Your-Repo-URL]
-    cd [Your-Repo-Name]
+    git clone https://github.com/jideabdqudus/visa-catcher-bot
+    cd visa-catcher-bot
     ```
 
 2.  **Install Dependencies:**
