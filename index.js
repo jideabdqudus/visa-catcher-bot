@@ -6,21 +6,21 @@ const nodemailer = require("nodemailer");
 const SITES = [
   {
     name: "Netherlands Visa",
-    url: "sample-url", // example https://visacatcher.bot/appointments/london/netherlands
-    textToLookFor: "No Current Availability", // word to check for 
+    url: "https://visacatcher.bot/appointments/london/netherlands",
+    textToLookFor: "No Current Availability",
     hasSentNotification: false,
   },
   {
     name: "Portugal Visa",
-    url: "sample-url", // example https://visacatcher.bot/appointments/london/portugal
+    url: "https://visacatcher.bot/appointments/portugal/",
     textToLookFor: "No Current Availability",
     hasSentNotification: false,
   },
 ];
 
 const CONFIG = {
-  senderEmail: process.env.SENDER_PASSWORD,
-  senderPassword: process.env.SENDER_MAIL,
+  senderEmail: process.env.SENDER_MAIL,
+  senderPassword: process.env.SENDER_PASSWORD,
   receiverEmail: process.env.RECEIVER_MAIL,
 };
 
